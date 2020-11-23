@@ -1,13 +1,18 @@
 function setup(){
     createCanvas(windowWidth, windowHeight);
+    font = loadFont("digital-7.tff");
 }
 function draw(){
+    background(0);
     time();
 }
 
 function time()
 {
+    fill("black");
+    textFont(font);
     textAlign(CENTER, CENTER);
+    textSize(width/4.25);
     let h = hour();
     let m = minute();
     let s = second();
