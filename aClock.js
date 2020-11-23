@@ -9,7 +9,7 @@ function draw(){
 
 function time()
 {
-    fill("black");
+    fill("white");
     textFont(font);
     textAlign(CENTER, CENTER);
     textSize(width/4.25);
