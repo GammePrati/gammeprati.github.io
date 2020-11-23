@@ -1,5 +1,5 @@
 function setup(){
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(100, 100);
     font = loadFont("digital-7.tff");
 }
 function draw(){
